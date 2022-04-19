@@ -1,0 +1,2380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GMart</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            overflow-x: hidden;
+        }
+    </style>
+    
+</head>
+
+<body>
+    <!-- ---------------Starting of navbar ------------------------->
+    
+        <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top nav-pos " style="overflow-y: hidden;"> -->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed sticky-top" style="overflow-y: hidden;">
+
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent" style="text-align: center;">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <!-- <a class="nav-link active" aria-current="page" href="/index.html">Home</a> -->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/aboutus.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/partners.html">Partners</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/contact.html">Contact Us</a>
+                        </li>
+                        
+                        <li class="nav-item dropdown">
+                            <!-- <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Categories
+                            </a> -->
+                            <a class="nav-link active" aria-current="page" href="/categories.html">Categories</a>
+                            <!-- <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Mobile</a></li>
+                                <li><a class="dropdown-item" href="#">Laptop</a></li>
+                                <li><a class="dropdown-item" href="#">Cloths</a></li>
+                                <li><a class="dropdown-item" href="#">Electric Appliances</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                
+                            </ul> -->
+                            <div    >
+                                <a href="/login.html"> <li> <button type="button" class="btn btn-dark" id="side-spacing-2" >Login</button>
+                                </li></a><a href="/sign-up.html"><li><button type="button" class="btn btn-dark" id="side-spacing">Signup</button></li></a>
+                               
+                                
+                            </div>
+                            
+                           
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    
+    
+    
+
+    <!-- Page Content -->
+    <div class="container" style="text-align: center;">
+        <h1 class="mt-4" id="mainhead"">TRENDING DEALS</h1>
+        
+    </div>
+    <!-- ---------------Ending of navbar ------------------------->
+
+
+    <!-------------------------------- Starting of crausel------------------------- -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/images/ghbjk.webp" class="d-block w-100" alt="..."">
+            <div class=" carousel-caption d-none d-md-block">
+
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="/images/73e8c010cf38204e.webp" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="/images/trytyr.webp" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+    </div>
+
+    <!--------------------------------- Ending of Crausel --------------------------------->
+
+
+
+    <!-------------------------------- Products --------------------------------------->
+    <div class="products">
+        <h1 style="text-align: center;">Deals Of The Day</h1>
+        <div class="row" style="display: flex;">
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>13% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="Deals/Deal1.jpg"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 61999</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            iPhone 12
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/Address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>68% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="Deals/Deal2.jpg"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 44310</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            HP Laptop Ryzen5
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>51% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="Deals/Deal3.jpg"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 3416</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                         Smart Watch
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>69% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="Deals/Deal4.jpg"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 51399</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            HP Ryzen 5500U
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>4% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="Deals/Deal5.jpg"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 21347</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            Samsung S20
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>33% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="Deals/Deal6.jpg"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 85490</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            MI Notebook Pro
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="display: flex;">
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>24% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="Deals/Deal7.jpg"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 546</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                        boAt Earphone
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/Address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>54% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="Deals/Deal8.jpg"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 44930</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            Lenovo-renewed R40
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>29% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="Deals/Deal9.jpg"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 3497</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            Kent RO
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>21% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="Deals/Deal10.jpg"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 753</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            Mini Handbag
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>74% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="Deals/Deal11.jpg"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 413</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            Addidas Sneakers
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>81% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="Deals/Deal12.jpg"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 824</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            Titan Watch
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="display: flex;">
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>24% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="/Laptops/Laptop1.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 54660</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            HP-15s-ryzen 5
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/Address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>14% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="/Laptops/Laptop2.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 44327</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            HP-intel-5
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>9% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="/Laptops/Laptop3.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 34167</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            Dell ryzen 5500u
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>11% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="/Laptops/Laptop4.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 75443</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            Acer multi thread
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>4% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="/Laptops/Laptop5.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 41467</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            HP Multi core
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>33% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="/Laptops/Laptop6.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 85494</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            ASUS renewed
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="display: flex;">
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>24% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="Deals/Deal7.jpg"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 546</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                        boAt Earphone
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/Address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>54% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="Deals/Deal8.jpg"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 44930</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            Lenovo-renewed R40
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>29% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="Deals/Deal9.jpg"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 3497</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            Kent RO
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>21% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="Deals/Deal10.jpg"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 753</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            Mini Handbag
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>74% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="Deals/Deal11.jpg"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 413</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            Addidas Sneakers
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>81% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="Deals/Deal12.jpg"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 824</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            Titan Watch
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="display: flex;">
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>24% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="/Laptops/Laptop1.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 54660</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            HP-15s-ryzen 5
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/Address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>14% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="/Laptops/Laptop2.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 44327</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            HP-intel-5
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>9% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="/Laptops/Laptop3.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 34167</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            Dell ryzen 5500u
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>11% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="/Laptops/Laptop4.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 75443</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            Acer multi thread
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>4% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="/Laptops/Laptop5.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 41467</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            HP Multi core
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>33% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="/Laptops/Laptop6.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 85494</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            ASUS renewed
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="display: flex;">
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>24% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="Mobiles/mobile1.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 14660</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            OPPO F21 Pro
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/Address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>14% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="Mobiles/mobile2.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 24327</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                    Samsung F12
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>9% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="/Mobiles/mobile3.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 14167</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            Redmi 9
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>11% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="/Mobiles/mobile4.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 15443</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                        Samsung M32
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>4% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="/Mobiles/mobile5.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 21467</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            Samsung M12
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>33% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="/Mobiles/mobile6.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 15494</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            VIVO J9
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="display: flex;">
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>24% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="grocery/grocery1.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 546</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            Getmytea Assam Tea
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/Address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>14% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="grocery/grocery2.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 443</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            TGL Co.
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>9% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="grocery/grocery3.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 341</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            Harvest Jumbo
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>11% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="grocery/grocery4.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 754</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            Wise Mama
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>4% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="grocery/grocery5.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 142</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            Fortune Premium
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>33% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="grocery/grocery6.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 23</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            Fresh Potato, 1kg
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="display: flex;">
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>4% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="grocery/grocery7.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹9</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            Mother Dairy
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>7% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="grocery/grocery8.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 21</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            Aashirvaad Salt
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>41% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="grocery/grocery9.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 239</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            Amul Butter
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>6% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="grocery/grocery11.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 131</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            Tata Sampann
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>34% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="grocery/grocery12.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 40</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            Fresh Tomato Hybrid
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>41% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="grocery/grocery13.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 12</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            Fresh Chilli
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="display: flex;">
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>24% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="grocery/grocery1.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 546</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            Getmytea Assam Tea
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/Address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>14% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="grocery/grocery2.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 443</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            TGL Co.
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>9% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="grocery/grocery3.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 341</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            Harvest Jumbo
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>11% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="grocery/grocery4.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 754</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            Wise Mama
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>4% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="grocery/grocery5.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 142</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            Fortune Premium
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>33% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="grocery/grocery6.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 23</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            Fresh Potato, 1kg
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="display: flex;">
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>24% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="furniture/furniture1.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 5466</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            Display Rack Steel
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/Address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>14% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="furniture/furniture2.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 4432</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            AmazonBasics Chair
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>9% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="furniture/furniture3.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 3416</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                        Drawers Wooden 
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>11% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="furniture/furniture4.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 7544</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            Solimo Accord Chair
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>4% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="furniture/furniture5.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 4146</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            UHUD CRAFTS
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>33% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="furniture/furniture6.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 8549</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            Maison & Cuisine
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="display: flex;">
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>4% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="furniture/furniture7.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹8956</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            Furn Aspire
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>7% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="furniture/furniture8.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 3459</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            Decazone Macrame
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>41% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="furniture/furniture9.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 2390</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            SAW SAQIB
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>6% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="furniture/furniture10.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 4316</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            iCare Gifts
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>34% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="furniture/furniture11.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 9496</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            Wooden Cave
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>41% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="furniture/furniture12.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 8362</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            Wooden TV Cabinet
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="display: flex;">
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>24% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="furniture/furniture1.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 5466</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            Display Rack Steel
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/Address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>14% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="furniture/furniture2.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 4432</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            AmazonBasics Chair
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>9% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="furniture/furniture3.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 3416</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                        Drawers Wooden 
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>11% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="furniture/furniture4.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 7544</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            Solimo Accord Chair
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>4% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="furniture/furniture5.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 4146</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            UHUD CRAFTS
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>33% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="furniture/furniture6.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 8549</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            Maison & Cuisine
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="display: flex;">
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>24% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="fashion/fashion1.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 546</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            Rayon Yarn 
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/Address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>14% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="fashion/fashion2.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 443</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            Solid Yoga Pants
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>9% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="fashion/fashion3.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 341</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            Women Stylish 
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>11% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="fashion/fashion4.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 754</p>
+                    </div>  
+                    <div class="product-name">
+                        <p class="item-name">
+                            Men Shirt
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>4% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="fashion/fashion5.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 414</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            Women's Rayon
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>33% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="fashion/fashion6.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 854</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            Rectangle Sunglasses
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="display: flex;">
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>4% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="fashion/fashion7.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹895</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            Men Slim Fit
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>7% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="fashion/fashion9.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 345</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            Men's Lycra
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>41% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="fashion/fashion10.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 239</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            New York Fashion
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>6% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="fashion/fashion11.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 4316</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            Girls Long Dress
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>34% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="fashion/fashion12.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 949</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            Girl's Gown
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>41% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="fashion/fashion13.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 8362</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            RPS Fashion Watch
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="display: flex;">
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>24% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="fashion/fashion1.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 546</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            Rayon Yarn 
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/Address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>14% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="fashion/fashion2.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 443</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            Solid Yoga Pants
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>9% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="fashion/fashion3.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 341</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            Women Stylish 
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>11% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="fashion/fashion4.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 754</p>
+                    </div>  
+                    <div class="product-name">
+                        <p class="item-name">
+                            Men Shirt
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>4% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="fashion/fashion5.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 414</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            Women's Rayon
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="discount-top">
+                        <p>33% Off</p>
+                    </div>
+                    <div class="product-container">
+                        <img src="fashion/fashion6.webp"
+                            alt="" srcset="" class="product-display">
+                    </div>
+                    <div class="product-price">
+                        <p> ₹ 854</p>
+                    </div>
+                    <div class="product-name">
+                        <p class="item-name">
+                            Rectangle Sunglasses
+                        </p>
+                    </div>
+
+                    <div class="buy-item">
+                        <a href="/address.html" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+
+
+
+    <!-- Products Ending -->
+
+
+
+    <!-------------------- Starting of footer --------------------------------------->
+    <footer class="bg-dark text-center text-white foot-contact">
+        <!-- Grid container -->
+        <h1>Connect With Us And Stay tuned</h1>
+        <div class="container p-4 pb-0">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!-- Facebook -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-facebook-f"></i></a>
+
+                <!-- Twitter -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-twitter"></i></a>
+
+                <!-- Whatsapp -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-google"></i></a>
+
+                <!-- Instagram -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-instagram"></i></a>
+
+                <!-- Linkedin -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-linkedin-in"></i></a>
+
+                <!-- Github -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-github"></i></a>
+            </section>
+            <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2020 Copyright:
+            <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!------------------------- Ending Of footer -------------------------------------->
+
+
+    <!-- --------------------------------------Starting of Modal --------------------------------------->
+
+    <!-------------------------- Modal currently not in use --------------------------------->
+    <div class="modal" id="myModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Address</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="inputEmail4">Email</label>
+                                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="inputPassword4">Password</label>
+                                <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputAddress">Address</label>
+                            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                        </div>
+                        <div class="form-group">
+                            <label for="inputAddress2">Address 2</label>
+                            <input type="text" class="form-control" id="inputAddress2"
+                                placeholder="Apartment, studio, or floor">
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="inputCity">City</label>
+                                <input type="text" class="form-control" id="inputCity">
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label for="inputState">State</label>
+                                <select id="inputState" class="form-control">
+                                    <option selected>Choose...</option>
+                                    <option>...</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-md-2">
+                                <label for="inputZip">Zip</label>
+                                <input type="text" class="form-control" id="inputZip">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                <label class="form-check-label" for="gridCheck">
+                                    Check me out
+                                </label>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Sign in</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal"
+                        onclick="document.getElementById('myModal').style.display='none';">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------------------------- Ending of Modal ------------------------------------------->
+
+
+
+    <!-- onclick="document.getElementById('exampleModal').style.display='none';" -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+    <script src="/main.js"></script>
+</body>
+
+</html>

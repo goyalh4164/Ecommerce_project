@@ -1,0 +1,273 @@
+.card:hover{
+    
+    transform: scale(1.03); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+     
+}
+.row{
+    padding-top:20px ;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+
+}
+.foot-contact{
+    padding-top:30px ;
+}
+/* product item details */
+.product-container{
+    text-align: center;
+}
+.product-display{
+    height: 130px;
+    text-align: center;
+}
+.discount-top{
+    font-size: small;
+    text-align: center;
+    font-weight: bold;
+
+}
+.product-price{
+    text-align: center;
+}
+.item-name{
+    font-size: medium;
+    font-weight: 700;
+
+}
+.product-name{
+    text-align: center;
+}
+.buy-btn{
+   
+    text-decoration: none;
+    font-size: 20px;
+    color: aliceblue;
+ 
+   
+}
+.buy-item{
+     
+    text-align: center;
+    background-color: black;
+border-radius: 10px;
+
+   
+}
+.buy-item:hover{
+    background-color:green;
+    border-radius: 10px;
+    
+}
+.buy-btn:hover{
+   
+    color:white;
+    
+ 
+   
+}
+#mainhead {
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    font-weight: bold;
+    font-size: 9vw;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  
+    /* -----------------------------------ANIMATION--------------------------- */
+    text-transform: uppercase;
+    background-image: linear-gradient(
+      -225deg,
+      #231557 0%,
+      #44107a 29%,
+      #ff1361 67%,
+      #fff800 100%
+    );
+    /* background-size: auto auto; */
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    /* display: inline-block; */
+    /* //font-size: 190px; */
+  }
+  
+  @keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+    /* ----------------------------------------------ANIMATION-------------------------- */
+  }
+  .btn btn-dark{
+      border: 2px solid white !important;
+  }
+  [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+    border: 0.1vh solid white;
+}
+#side-spacing {
+    position: relative;
+    left: 10vh;
+}
+#side-spacing-2{
+    position: relative;
+    left: 7vh;
+}
+#side-spacing-2:hover{
+    background-color: white;
+    color: black;
+}
+#side-spacing:hover{
+    background-color: white;
+    color: black;
+}
+.nav-container{
+position:sticky;
+
+}
+@media only screen and (max-width: 992px) {
+    #side-spacing-2:hover{
+        background-color: white;
+        color: black;
+    }
+    #side-spacing {
+        position: relative;
+        left: 7vh;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
+    font-family: 'Roboto';font-size: 16px;
+} */
+
+.aboutus-section {
+    padding: 90px 90px;
+}
+.aboutus-title {
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: 32px;
+    margin: 0 0 39px;
+    padding: 0 0 11px;
+    position: relative;
+    text-transform: uppercase;
+    color: #000;
+}
+.aboutus-title::after {
+    background: #fdb801 none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    width: 54px;
+}
+.aboutus-text {
+    color: #606060;
+    font-size: 13px;
+    line-height: 22px;
+    margin: 0 0 35px;
+}
+
+a:hover, a:active {
+    color: #ffb901;
+    text-decoration: none;
+    outline: 0;
+}
+.aboutus-more {
+    border: 1px solid #fdb801;
+    border-radius: 25px;
+    color: #fdb801;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0;
+    padding: 7px 20px;
+    text-transform: uppercase;
+}
+.feature .feature-box .iconset {
+    background: #fff none repeat scroll 0 0;
+    float: left;
+    position: relative;
+    width: 18%;
+}
+.feature .feature-box .iconset::after {
+    background: #fdb801 none repeat scroll 0 0;
+    content: "";
+    height: 150%;
+    left: 43%;
+    position: absolute;
+    top: 100%;
+    width: 1px;
+}
+
+.feature .feature-box .feature-content h4 {
+    color: #0f0f0f;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 22px;
+    margin: 0 0 5px;
+}
+
+
+.feature .feature-box .feature-content {
+    float: left;
+    padding-left: 28px;
+    width: 78%;
+}
+.feature .feature-box .feature-content h4 {
+    color: #0f0f0f;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 22px;
+    margin: 0 0 5px;
+}
+.feature .feature-box .feature-content p {
+    color: #606060;
+    font-size: 13px;
+    line-height: 22px;
+}
+.icon {
+    color : #f4b841;
+    padding:0px;
+    font-size:40px;
+    border: 1px solid #fdb801;
+    border-radius: 100px;
+    color: #fdb801;
+    font-size: 28px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    width: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

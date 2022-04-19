@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/paymentfin.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+     <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top nav-pos " style="overflow-y: hidden;"> -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed sticky-top" style="overflow-y: hidden;">
+
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent" style="text-align: center;">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/aboutus.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/partners.html">Partners</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/contact.html">Contact Us</a>
+                        </li>
+                        
+                        <li class="nav-item dropdown">
+                            <!-- <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Categories
+                            </a> -->
+                            <a class="nav-link active" aria-current="page" href="/categories.html">Categories</a>
+                            <!-- <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Mobile</a></li>
+                                <li><a class="dropdown-item" href="#">Laptop</a></li>
+                                <li><a class="dropdown-item" href="#">Cloths</a></li>
+                                <li><a class="dropdown-item" href="#">Electric Appliances</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                
+                            </ul> -->
+                            <div    >
+                                <a href="/login.html"> <li> <button type="button" class="btn btn-dark" id="side-spacing-2" >Login</button>
+                                </li></a><a href="/sign-up.html"><li><button type="button" class="btn btn-dark" id="side-spacing">Signup</button></li></a>
+                               
+                                
+                            </div>
+                            
+                           
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    
+
+
+    <form action="" method="post" autocomplete="off" name="google-sheet">
+    <div class="container mt-5 px-5">
+        <div class="mb-4">
+            <h2>Confirm order and pay</h2> <span>please make the payment, after that you can enjoy all the features and benefits.</span>
+        </div>
+        <div class="row">
+            <div class="col-md-8">
+                <div class="card p-3">
+                    <h6 class="text-uppercase">Payment details</h6>
+                    <div class="inputbox mt-3"> <input type="text" name="name" class="form-control" required="required" name="card-name" value=""> <span>Name on card</span> </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="inputbox mt-3 mr-2"> <input type="text" name="name" class="form-control" required="required" name="card-number" value=""> <i class="fa fa-credit-card"></i> <span>Card Number</span> </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="d-flex flex-row">
+                                <div class="inputbox mt-3 mr-2"> <input type="text" name="name" class="form-control" required="required" name="card-expiry" value=""> <span>Expiry</span> </div>
+                                <div class="inputbox mt-3 mr-2"> <input type="text" name="name" class="form-control" required="required" name="cvv" value=""> <span>CVV</span> </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-4 mb-4">
+                        <h6 class="text-uppercase">Billing Address</h6>
+                        <div class="row mt-3">
+                            <div class="col-md-6">
+                                <div class="inputbox mt-3 mr-2"> <input type="text" name="name" class="form-control" required="required" name="address" value=""> <span>Street Address</span> </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="inputbox mt-3 mr-2"> <input type="text" name="name" class="form-control" required="required" name="city" value=""> <span>City</span> </div>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col-md-6">
+                                <div class="inputbox mt-3 mr-2"> <input type="text" name="name" class="form-control" required="required" name="state" value=""> <span>State/Province</span> </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="inputbox mt-3 mr-2"> <input type="text" name="name" class="form-control" required="required" name="zip-code" value=""> <span>Zip code</span> </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-4 mb-4 d-flex justify-content-between"> <span><a href="/Address.html" class="btn btn-success px-3">Edit Address</a></span> <a href="/order.html" class="btn btn-success px-3" type="submit" name="submit">Pay 67rs</a> </div>
+            </div>
+            <div class="col-md-4"><input type="submit" name="submit" class="btn btn-info btn-md" value="submit">
+                <div class="card card-blue p-3 text-white mb-3"> <span>You have to pay</span>   
+                    <div class="d-flex flex-row align-items-end mb-3">
+                        <h1 class="mb-0 yellow">$549</h1> <span>.99</span>
+                    </div> <span>Enjoy all the features and perk after you complete the payment</span> <a href="#" class="yellow decoration">Know all the features</a>
+                    <div class="hightlight"> <span>100% Guaranteed support and update for the next 5 years.</span> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzeZBQQBW3QuJTIN2l6taidGgUGUbsb-IE1lzy3LDg-L3pDxmHq/exec'
+    const form = document.forms['google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

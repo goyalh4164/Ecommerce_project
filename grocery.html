@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <!-- ---------------Starting of navbar ------------------------->
+    
+        <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top nav-pos " style="overflow-y: hidden;"> -->
+           <!-- ---------------Starting of navbar ------------------------->
+    
+        <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top nav-pos " style="overflow-y: hidden;"> -->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed sticky-top" style="overflow-y: hidden;">
+
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent" style="text-align: center;">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="/aboutus.html">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="/partners.html">Partners</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="/contact.html">Contact Us</a>
+                            </li>
+                            
+                            <li class="nav-item dropdown">
+                                <!-- <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Categories
+                                </a> -->
+                                <a class="nav-link active" aria-current="page" href="/categories.html">Categories</a>
+                                <!-- <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Mobile</a></li>
+                                    <li><a class="dropdown-item" href="#">Laptop</a></li>
+                                    <li><a class="dropdown-item" href="#">Cloths</a></li>
+                                    <li><a class="dropdown-item" href="#">Electric Appliances</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    
+                                </ul> -->
+                                <div    >
+                                    <a href="/login.html"> <li> <button type="button" class="btn btn-dark" id="side-spacing-2" >Login</button>
+                                    </li></a><a href="/sign-up.html"><li><button type="button" class="btn btn-dark" id="side-spacing">Signup</button></li></a>
+                                   
+                                    
+                                </div>
+                                
+                               
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        <!-- Page Content -->
+        <div class="container" style="text-align: center;">
+            <h1 class="mt-4" id="mainhead"">GROCERY</h1>
+            
+        </div>
+        <!-- ---------------Ending of navbar ------------------------->
+
+
+
+
+        <div class="products">
+            <!-- <h1 style="text-align: center;">Deals Of The Day</h1> -->
+            <div class="row" style="display: flex;">
+                <div class="col-md-2">
+                    <div class="card">
+                        <div class="discount-top">
+                            <p>24% Off</p>
+                        </div>
+                        <div class="product-container">
+                            <img src="grocery/grocery1.webp"
+                                alt="" srcset="" class="product-display">
+                        </div>
+                        <div class="product-price">
+                            <p> ₹ 546</p>
+                        </div>
+                        <div class="product-name">
+                            <p class="item-name">
+                                Getmytea Assam Tea
+                            </p>
+                        </div>
+    
+                        <div class="buy-item">
+                            <a href="/Address.html" class="buy-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card">
+                        <div class="discount-top">
+                            <p>14% Off</p>
+                        </div>
+                        <div class="product-container">
+                            <img src="grocery/grocery2.webp"
+                                alt="" srcset="" class="product-display">
+                        </div>
+                        <div class="product-price">
+                            <p> ₹ 443</p>
+                        </div>
+                        <div class="product-name">
+                            <p class="item-name">
+                                TGL Co.
+                            </p>
+                        </div>
+    
+                        <div class="buy-item">
+                            <a href="/address.html" class="buy-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card">
+                        <div class="discount-top">
+                            <p>9% Off</p>
+                        </div>
+                        <div class="product-container">
+                            <img src="grocery/grocery3.webp"
+                                alt="" srcset="" class="product-display">
+                        </div>
+                        <div class="product-price">
+                            <p> ₹ 341</p>
+                        </div>
+                        <div class="product-name">
+                            <p class="item-name">
+                                Harvest Jumbo
+                            </p>
+                        </div>
+    
+                        <div class="buy-item">
+                            <a href="/address.html" class="buy-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card">
+                        <div class="discount-top">
+                            <p>11% Off</p>
+                        </div>
+                        <div class="product-container">
+                            <img src="grocery/grocery4.webp"
+                                alt="" srcset="" class="product-display">
+                        </div>
+                        <div class="product-price">
+                            <p> ₹ 754</p>
+                        </div>
+                        <div class="product-name">
+                            <p class="item-name">
+                                Wise Mama
+                            </p>
+                        </div>
+    
+                        <div class="buy-item">
+                            <a href="/address.html" class="buy-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card">
+                        <div class="discount-top">
+                            <p>4% Off</p>
+                        </div>
+                        <div class="product-container">
+                            <img src="grocery/grocery5.webp"
+                                alt="" srcset="" class="product-display">
+                        </div>
+                        <div class="product-price">
+                            <p> ₹ 142</p>
+                        </div>
+                        <div class="product-name">
+                            <p class="item-name">
+                                Fortune Premium
+                            </p>
+                        </div>
+    
+                        <div class="buy-item">
+                            <a href="/address.html" class="buy-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card">
+                        <div class="discount-top">
+                            <p>33% Off</p>
+                        </div>
+                        <div class="product-container">
+                            <img src="grocery/grocery6.webp"
+                                alt="" srcset="" class="product-display">
+                        </div>
+                        <div class="product-price">
+                            <p> ₹ 23</p>
+                        </div>
+                        <div class="product-name">
+                            <p class="item-name">
+                                Fresh Potato, 1kg
+                            </p>
+                        </div>
+    
+                        <div class="buy-item">
+                            <a href="/address.html" class="buy-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="display: flex;">
+                <div class="col-md-2">
+                    <div class="card">
+                        <div class="discount-top">
+                            <p>4% Off</p>
+                        </div>
+                        <div class="product-container">
+                            <img src="grocery/grocery7.webp"
+                                alt="" srcset="" class="product-display">
+                        </div>
+                        <div class="product-price">
+                            <p> ₹9</p>
+                        </div>
+                        <div class="product-name">
+                            <p class="item-name">
+                                Mother Dairy
+                            </p>
+                        </div>
+    
+                        <div class="buy-item">
+                            <a href="/address.html" class="buy-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card">
+                        <div class="discount-top">
+                            <p>7% Off</p>
+                        </div>
+                        <div class="product-container">
+                            <img src="grocery/grocery8.webp"
+                                alt="" srcset="" class="product-display">
+                        </div>
+                        <div class="product-price">
+                            <p> ₹ 21</p>
+                        </div>
+                        <div class="product-name">
+                            <p class="item-name">
+                                Aashirvaad Salt
+                            </p>
+                        </div>
+    
+                        <div class="buy-item">
+                            <a href="/address.html" class="buy-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card">
+                        <div class="discount-top">
+                            <p>41% Off</p>
+                        </div>
+                        <div class="product-container">
+                            <img src="grocery/grocery9.webp"
+                                alt="" srcset="" class="product-display">
+                        </div>
+                        <div class="product-price">
+                            <p> ₹ 239</p>
+                        </div>
+                        <div class="product-name">
+                            <p class="item-name">
+                                Amul Butter
+                            </p>
+                        </div>
+    
+                        <div class="buy-item">
+                            <a href="/address.html" class="buy-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card">
+                        <div class="discount-top">
+                            <p>6% Off</p>
+                        </div>
+                        <div class="product-container">
+                            <img src="grocery/grocery11.webp"
+                                alt="" srcset="" class="product-display">
+                        </div>
+                        <div class="product-price">
+                            <p> ₹ 131</p>
+                        </div>
+                        <div class="product-name">
+                            <p class="item-name">
+                                Tata Sampann
+                            </p>
+                        </div>
+    
+                        <div class="buy-item">
+                            <a href="/address.html" class="buy-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card">
+                        <div class="discount-top">
+                            <p>34% Off</p>
+                        </div>
+                        <div class="product-container">
+                            <img src="grocery/grocery12.webp"
+                                alt="" srcset="" class="product-display">
+                        </div>
+                        <div class="product-price">
+                            <p> ₹ 40</p>
+                        </div>
+                        <div class="product-name">
+                            <p class="item-name">
+                                Fresh Tomato Hybrid
+                            </p>
+                        </div>
+    
+                        <div class="buy-item">
+                            <a href="/address.html" class="buy-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card">
+                        <div class="discount-top">
+                            <p>41% Off</p>
+                        </div>
+                        <div class="product-container">
+                            <img src="grocery/grocery13.webp"
+                                alt="" srcset="" class="product-display">
+                        </div>
+                        <div class="product-price">
+                            <p> ₹ 12</p>
+                        </div>
+                        <div class="product-name">
+                            <p class="item-name">
+                                Fresh Chilli
+                            </p>
+                        </div>
+    
+                        <div class="buy-item">
+                            <a href="/address.html" class="buy-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="display: flex;">
+                <div class="col-md-2">
+                    <div class="card">
+                        <div class="discount-top">
+                            <p>24% Off</p>
+                        </div>
+                        <div class="product-container">
+                            <img src="grocery/grocery1.webp"
+                                alt="" srcset="" class="product-display">
+                        </div>
+                        <div class="product-price">
+                            <p> ₹ 546</p>
+                        </div>
+                        <div class="product-name">
+                            <p class="item-name">
+                                Getmytea Assam Tea
+                            </p>
+                        </div>
+    
+                        <div class="buy-item">
+                            <a href="/Address.html" class="buy-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card">
+                        <div class="discount-top">
+                            <p>14% Off</p>
+                        </div>
+                        <div class="product-container">
+                            <img src="grocery/grocery2.webp"
+                                alt="" srcset="" class="product-display">
+                        </div>
+                        <div class="product-price">
+                            <p> ₹ 443</p>
+                        </div>
+                        <div class="product-name">
+                            <p class="item-name">
+                                TGL Co.
+                            </p>
+                        </div>
+    
+                        <div class="buy-item">
+                            <a href="/address.html" class="buy-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card">
+                        <div class="discount-top">
+                            <p>9% Off</p>
+                        </div>
+                        <div class="product-container">
+                            <img src="grocery/grocery3.webp"
+                                alt="" srcset="" class="product-display">
+                        </div>
+                        <div class="product-price">
+                            <p> ₹ 341</p>
+                        </div>
+                        <div class="product-name">
+                            <p class="item-name">
+                                Harvest Jumbo
+                            </p>
+                        </div>
+    
+                        <div class="buy-item">
+                            <a href="/address.html" class="buy-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card">
+                        <div class="discount-top">
+                            <p>11% Off</p>
+                        </div>
+                        <div class="product-container">
+                            <img src="grocery/grocery4.webp"
+                                alt="" srcset="" class="product-display">
+                        </div>
+                        <div class="product-price">
+                            <p> ₹ 754</p>
+                        </div>
+                        <div class="product-name">
+                            <p class="item-name">
+                                Wise Mama
+                            </p>
+                        </div>
+    
+                        <div class="buy-item">
+                            <a href="/address.html" class="buy-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card">
+                        <div class="discount-top">
+                            <p>4% Off</p>
+                        </div>
+                        <div class="product-container">
+                            <img src="grocery/grocery5.webp"
+                                alt="" srcset="" class="product-display">
+                        </div>
+                        <div class="product-price">
+                            <p> ₹ 142</p>
+                        </div>
+                        <div class="product-name">
+                            <p class="item-name">
+                                Fortune Premium
+                            </p>
+                        </div>
+    
+                        <div class="buy-item">
+                            <a href="/address.html" class="buy-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card">
+                        <div class="discount-top">
+                            <p>33% Off</p>
+                        </div>
+                        <div class="product-container">
+                            <img src="grocery/grocery6.webp"
+                                alt="" srcset="" class="product-display">
+                        </div>
+                        <div class="product-price">
+                            <p> ₹ 23</p>
+                        </div>
+                        <div class="product-name">
+                            <p class="item-name">
+                                Fresh Potato, 1kg
+                            </p>
+                        </div>
+    
+                        <div class="buy-item">
+                            <a href="/address.html" class="buy-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!-------------------- Starting of footer --------------------------------------->
+    <footer class="bg-dark text-center text-white foot-contact">
+        <!-- Grid container -->
+        <h1>Connect With Us And Stay tuned</h1>
+        <div class="container p-4 pb-0">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!-- Facebook -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-facebook-f"></i></a>
+
+                <!-- Twitter -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-twitter"></i></a>
+
+                <!-- Whatsapp -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-google"></i></a>
+
+                <!-- Instagram -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-instagram"></i></a>
+
+                <!-- Linkedin -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-linkedin-in"></i></a>
+
+                <!-- Github -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-github"></i></a>
+            </section>
+            <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2020 Copyright:
+            <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!------------------------- Ending Of footer -------------------------------------->
+
+
+        
+        
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+</script>
+<script src="/main.js"></script> 
+</body>
+</html>
